@@ -1,0 +1,153 @@
+// -----------SECTION--------------
+
+.hero-header {
+  background-color: rgb(138, 245, 89);
+  //   background-color - для наглядности контуров каждой секции
+  padding-top: 6px;
+  padding-bottom: 160px;
+  @media (min-width: 768px) {
+    padding-top: 37px;
+    padding-bottom: 34px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 37px;
+    padding-bottom: 56px;
+  }
+}
+.products {
+  background-color: rgb(93, 211, 58);
+  //   background-color - для наглядности контуров каждой секции
+  padding-top: 121px;
+  padding-bottom: 98px;
+  @media (min-width: 768px) {
+    padding-top: 122px;
+    padding-bottom: 112px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 127px;
+    padding-bottom: 119px;
+  }
+}
+.about {
+  background-color: rgb(45, 182, 33);
+  //   background-color - для наглядности контуров каждой секции
+  padding-top: 125px;
+  padding-bottom: 39px;
+  @media (min-width: 768px) {
+    padding-top: 130px;
+    padding-bottom: 66px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 125px;
+    padding-bottom: 39px;
+  }
+}
+.gallery {
+  background-color: rgb(26, 139, 11);
+  //   background-color - для наглядности контуров каждой секции
+  padding-top: 97px;
+  padding-bottom: 80px;
+  @media (min-width: 768px) {
+    padding-top: 140px;
+    padding-bottom: 121px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 139px;
+    padding-bottom: 123px;
+  }
+}
+.contacts {
+  background-color: rgb(3, 124, 3);
+  //   background-color - для наглядности контуров каждой секции
+  padding-top: 86px;
+  padding-bottom: 113px;
+  @media (min-width: 768px) {
+    padding-top: 119px;
+    padding-bottom: 158px;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 132px;
+    padding-bottom: 165px;
+  }
+}
+.footer {
+  background-color: rgb(8, 68, 13);
+  //   background-color - для наглядности контуров каждой секции
+  padding-bottom: 25px;
+  @media (min-width: 768px) {
+    padding-bottom: 18px;
+  }
+  @media (min-width: 1280px) {
+    padding-bottom: 10px;
+  }
+}
+
+// --------------------CONTAINER---------------------
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 480px) {
+    width: 480px;
+  }
+  @media (min-width: 768px) {
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 768px;
+  }
+  @media (min-width: 1280px) {
+    padding-left: 115px;
+    padding-right: 115px;
+    width: 1280px;
+  }
+}
+
+// ---------------RESET----------------------
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+button {
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+// -----Может пригодится-------
+
+// body.modal-open {
+//   overflow: hidden;
+// }
+// ----------------------------
+// textarea {
+//   resize: none;
+// }
+// ----------------------------
+
+// --------------GLOBAL-STYLE---------------
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+// body {
+//   font-family: ?;
+//   letter-spacing: ?;
+//   color: ?;
+//   background-color: ?;
+// }
